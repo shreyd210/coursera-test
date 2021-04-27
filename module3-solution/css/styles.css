@@ -1,0 +1,50 @@
+.navbar-default {
+    background-color: gray;
+    border-color: gray;
+    border-radius: 0;
+    border: 3px solid black;
+}
+.navbar-default .navbar-brand {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: white;
+        background-color: white;
+    }
+    .col-xs-11 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+.navbar-nav {
+    margin: 0px -15px;
+    margin-bottom: 0mm;
+}
+.nav>li {
+    position: relative;
+    border: 1px solid black;
+}
+#ourMenu {
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10mm;
+}
+#fordiv {
+    background-color: gray;
+    padding: 0mm 3mm 3mm 3mm;
+    margin-bottom: 10mm;
+}
+#divFirst {
+    text-align: center;
+    font-weight: bold;
+    margin: 0mm;
+    margin-bottom: 5mm;
+}
